@@ -16,18 +16,18 @@ static const unsigned int gappx 	= 12;		/* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int horizpadbar        = 6;		/* horizontal padding for statusbar */
-static const int vertpadbar         = 7;		/* vertical padding for statusbar */
+static const int horizpadbar        = 10;		/* horizontal padding for statusbar */
+static const int vertpadbar         = 12;		/* vertical padding for statusbar */
 
 /* Default font will be Inconsolata if installed (sudo pacman -S ttf-inconsolata-nerd ttf-nerd-fonts-symbols).
  * Otherwise, default font will be Source code (sudo pacman -S ttf-sourcecodepro-nerd)
  */
 static const char *fonts[] = {
-	"Inconsolata Nerd Font:weight=regular:size=15:antialias=true",
+	"Inconsolata Nerd Font:weight=bold:size=15:antialias=true",
 	"SymbolsNerdFont:size=15" // give dwm tags (1-9) support for emojis
 };
 
-static const char col_1[] = "#282c34"; /* background color of bar */
+static const char col_1[] = "#202023"; /* background color of bar */
 static const char col_2[] = "#282c34"; /* border color unfocused windows */
 static const char col_3[] = "#d7d7d7";
 static const char col_4[] = "#06b6d4"; /* border color focused windows and tags */
@@ -40,8 +40,7 @@ static const char *colors[][3] = {
 /* tagging */
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
 /* static const char *tags[] = { "", "", "", "", "", """, "", "", """}; */
-static const char *tags[] = {"dev", "www", "sys", "edi", "chat", "mus", "vid"};
-
+static const char *tags[] = {"sys", "dev", "www", "edi", "chat", "mus", "vid"};
 
 static const Rule rules[] = {
 	/* xprop(1):
