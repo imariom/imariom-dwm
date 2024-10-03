@@ -12,7 +12,7 @@
     * [Application controls](#application-controls)
 
 ## About Suckless dwm
-|![imariom-dwm](https://github.com/imariom/dotfiles/blob/main/.screenshots/imariom-dwm-thumb.png)|
+|![imariom-dwm](https://github.com/imariom/dotfiles/blob/main/.screenshots/imariom-dwm-thumbnail.png)|
 |:--:|
 | *imariom-dwm* |
 
