@@ -36,6 +36,7 @@ static const char *colors[][3] = {
 	[SchemeSel]      = { col_3,     col_4,     col_4 },
     // I manually added the following schemes to change the color of the
     // middle of the status bar. dwm.c also has some changes made to.
+    // This is a copy from colobar patch (that did fail on my dwm rice)
 	[SchemeInfoSel]  = { col_3,     col_1,     col_5 }, /* infobar middle  selected {text,background,not used but cannot be empty} */
 	[SchemeInfoNorm] = { col_3,     col_1,     col_5 }, /* infobar middle  unselected {text,background,not used but cannot be empty} */
 };
